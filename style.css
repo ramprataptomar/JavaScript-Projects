@@ -1,0 +1,119 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+#heading{
+   margin: auto;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   font-size: 40px;
+   background-color: burlywood;
+   padding: 10px 0;
+   margin-bottom: 30px;
+}
+
+.head-title{
+   color: rgb(227, 37, 82);
+}
+#form{
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-itm{
+   display: flex;
+   flex-flow: column;
+   margin: 10px auto 10px auto;
+}
+
+.form-input{
+   padding: 8px;
+   width: 280px;
+}
+.form-input:focus{
+   outline-color: rgb(121, 197, 239);
+}
+
+#add-book-btn{
+   margin-top: 20px;
+   padding: 10px;
+   font-weight: bold;
+   background-color: rgb(93, 180, 235);
+}
+
+#add-book-btn:hover{
+   color: brown;
+   transform: scale(0.95);
+   border-color: darksalmon;
+}
+
+#book-table-section{
+   margin: auto;
+   margin-top: 40px;
+   width: 60%;
+   max-height: 300px;
+   overflow: scroll;
+}
+
+table{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 100%;
+   border-collapse: collapse;
+}
+
+th{
+   font-size: 25px;
+   text-align: left;
+}
+
+table tr{
+   border-top: 2px solid brown;
+   border-bottom: 2px solid brown;
+}
+
+td, th{
+   padding: 10px;
+}
+
+.delete{
+   background-color: red;
+   padding: 5px;
+   margin-top: 7px;
+}
+.delete:hover{
+   color: white;
+   transform: scale(0.95);
+}
+
+tr:nth-child(even){
+   background-color: rgb(213, 208, 208);
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button{
+   -webkit-appearance: none;
+}
+
+.alert-message{
+   width: 280px;
+   padding: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   border-radius: 2px;
+}
+
+.success{
+   background-color: green;
+}
+
+.failure{
+   background-color: red;
+}
+
+.loading{
+   background-color: yellow;
+}
